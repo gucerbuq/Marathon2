@@ -50,11 +50,7 @@ public class Wages {
 			
 		}
 
-		Map<Object, Object> ftPersonalMap = ftList.stream()
-				.collect(Collectors.toMap(personal -> personal.toString(), personal -> personal.getWage() ));
-
-		Map<Object, Object> ptPersonalMap = ptList.stream()
-				.collect(Collectors.toMap(personal -> personal.toString(), personal -> personal.getWage()));
+		
 
 	}
 
